@@ -1,0 +1,31 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.game{
+    height:400px;
+    width:400px;
+    background-color:rgb(47, 117, 52);
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    border-radius: 10%;
+    border:none;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+#clearGame{
+    color:white;
+    background-color: green;
+    padding: 10px;
+    font-size:20px;
+    font-weight: bolder;
+    border-radius: 10%;
+    border:none;
+}
